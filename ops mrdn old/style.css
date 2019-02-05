@@ -1,0 +1,384 @@
+/* CSS Document */
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#CCCCCC;
+}
+
+
+tr,td
+{
+margin:0;
+padding:0;
+vertical-align:top;
+}
+
+
+h3+p{
+margin:-2px;
+}
+
+#top{
+		width:798px;
+		height:24px;
+}
+
+ul{
+		margin:0; 
+		padding:0; 
+		list-style-type:none;
+		font-size:0;
+		line-height:0;
+}
+
+
+#top span.navLeft{
+			background:url(images/nav_left.gif) 0 0 no-repeat;
+			width:7px;
+			height:24px;
+			float:left;
+			margin-top:0;
+			margin-left:5px !important /*Non-IE6*/; margin-left:3px  /*IE6*/;
+	}
+
+#top ul{
+
+			width:770px;
+			height:24px;
+			background:url(images/nav_bg.gif) 0 0 repeat-x;
+			float:left;
+			list-style-type:none;
+	
+}
+
+#top ul li{
+	float:left;
+	border-right:#F8F6B2 solid 1px;
+}
+#top ul li a{
+	display:block;
+	padding:0 12px 0 12px;
+	font:bold 10px/24px  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#top ul li a:hover,#top ul li a:focus{
+	background:url(images/nav_arrow.gif) center top no-repeat;
+	color:#fff;
+	background-color:#FF3366;
+}
+#top ul li a.selected{
+	display:block;
+	padding:0 12px 0 12px;
+	font:bold 10px/24px  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background:url(images/nav_arrow.gif) center top no-repeat;
+	color:#fff;
+	background-color:inherit;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#top ul li.noBdr{
+	border:none;
+}
+#top span.navRight{
+	background:url(images/nav_right.gif) 0 0 no-repeat;
+	width:7px;
+	height:24px;
+	float:left;
+	margin-top:0;
+}
+
+
+
+
+#vertmenu {
+font-family:Arial, Helvetica, sans-serif, Tahoma; 
+font-size:14px; 
+width: 185px;
+padding: 0;
+margin: 0;
+}
+
+#vertmenu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+#vertmenu ul li {
+
+margin: 0;
+padding: 0;
+}
+
+#vertmenu ul li a {
+font-size:12px;
+display: block;
+border-bottom: 1px dashed  #0076AE;
+padding: 10px 0 10px 10px;
+text-decoration: none;
+color: #333333;
+width:188px;
+}
+
+#vertmenu ul li a:hover, #vertmenu ul li a:focus
+ {
+color: #666666;
+font-size:11px;
+background-color:#F0F0F0 ;
+
+}
+
+.newtitle
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #0066CC;
+
+}
+
+
+
+.newsdetail
+{
+
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:150%;
+color:#666;
+text-align:justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+.txt
+{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:170%;
+color:#666;
+text-align:left;
+}
+
+
+.txt2
+{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:170%;
+color:#666;
+text-align:left;
+
+}
+
+
+
+
+.poll
+{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+line-height:150%;
+color:#666;
+text-align:left;
+}
+
+.photo{
+float:left;
+margin-right::4px;
+}
+
+
+
+#txtfield input {
+
+font-size:12px;
+font-family:Tahoma;
+text-align:center;
+color:#8C8C8C;
+background:#ffffff;
+margin:6px 4px;
+}
+
+
+
+.txtbox
+{
+width:160px;
+height:25px;
+border:1px #999999 solid;
+}
+
+
+
+.positionholder {
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	margin-left: 8px;
+}
+
+.postext {
+	margin-top: 10px;
+	margin-right: 18px;
+	margin-bottom: 7px;
+	margin-left: 18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #0066CC;
+
+	
+}
+
+
+
+.footer{
+font-family:Tahoma;
+font-size:11px;
+color:#006699;
+
+}
+
+.footer a{
+font-family:Tahoma;
+font-size:11px;
+color:#006699;
+text-decoration:none;
+
+}
+
+.footer a:hover{
+
+color:#666666;
+text-decoration:underline;
+}
+.pp {
+	margin-bottom:1px;
+}
+.unifm {
+	background-image: url(file:///C|/wamp/www/school/images/BUTTON_03.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.btn {
+	background-image: url(images/BUTTON_03.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.uniformgl2 {
+	background-image: url(images/Untitled-1_03.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+
+
+INPUT.but {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; TEXT-TRANSFORM: capitalize; BORDER-LEFT: #cccccc 1px solid; COLOR:  #333333; PADDING-TOP: 0px; BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #ffffff; font-weight:bold;
+}
+INPUT.but:hover {
+	BACKGROUND: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+#sitemap {
+font-family:Tahoma,Geneva, Arial, Helvetica, sans-serif 
+font-size:15px; 
+padding: 0;
+margin: 0;
+}
+
+#sitemap ul {
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+#sitemap ul li {
+
+margin: 0;
+padding: 0;
+}
+
+#sitemap ul li a {
+font-size:14px;
+padding: 10px 0 10px 10px;
+text-decoration: none;
+color: #333333;
+
+}
+
+#sitemap ul li a:hover, #sitemap ul li a:focus
+ {
+color: #666666;
+font-size:14px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

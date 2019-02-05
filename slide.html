@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="slide-show/css/nivo-slider.css" type="text/css" media="screen" />
+<script src="slide-show/js/jquery.min.js" type="text/javascript"></script>
+<script src="slide-show/js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:15,
+		animSpeed:500,
+		pauseTime:3000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false, 
+		directionNavHide:false, //Only show on hover
+		controlNav:true, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+
+<div id="slider_wrapper">
+        <div id="slider">
+          <img src="slide-show/images/slideshow/2.jpg" alt="01" title="Register and get jobs." width="600" />
+           <!-- <a href="#"><img src="slide-show/images/slideshow/224.jpg" alt="02" title="Solar fans." /></a>-->
+          <img src="slide-show/images/slideshow/23.jpg" alt="03" title="Jobs in Education." width="600" />
+            <img src="slide-show/images/slideshow/ax.jpg" alt="04" title="Thanks" width="600" />
+            <img src="slide-show/images/slideshow/3.jpg" alt="05" title="Peace And Development Jobs." width="600" />
+            <img src="slide-show/images/slideshow/asa.jpg" alt="05" title="Works Together Jobs" width="600" />
+			<img src="slide-show/images/slideshow/ww.jpg" alt="05" title="Women Rights Jobs" width="600" />
+            <!--
+            <a href="#"><img src="slide-show/images/slideshow/5522.jpg" alt="05" title="Batteries use in Solar System." /></a>-->
+        </div>
+	</div>
